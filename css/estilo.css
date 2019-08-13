@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url("../fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url("../fonts/Barlow-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+.header {
+    width: 1920px;
+    height: 120px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+}
+
+body {
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+.margem {
+    height: 120px;
+}
+
+.container.cabecalho {
+    margin-top: 10px;
+}
+
+.cabecalho .col-md-1.logo {
+    width: 70%;
+    height: 60px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    padding: 0;
+}
+
+.cabecalho .logo svg {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.cabecalho .texto-logo a { 
+    text-decoration: none;
+    font-family: 'Barlow-Bold';
+    color: #9B3C46;
+    font-size: 44px;
+}
+
+.cabecalho hr {
+    width: 27px;
+    border: #50B8FF solid 1px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+
+
+.cabecalho i {
+    margin-top: 25px;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #026CB4;
+}
+
+.cabecalho .endereco, .telefone {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #575757;
+    padding: 0;
+    bottom: -10px;
+}
+
+.cabecalho .telefone {
+    left: 10px;
+    top: 20px;
+}
+
+.cabecalho .col-md-1 {
+    padding: 0;
+    text-align: right;
+}
+
+.cabecalho .fas.fa-bars {
+    font-size: 25px;
+    color: #026CB4;
+}
+
+.banner {
+    height: 340px;
+    background-image: url("../img/poster1.png");
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.banner .poster {
+    max-width: 1920px;
+    height: 340px;
+    position: relative;
+}
+
+.banner .poster .svg-lines {
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+}
+
+.banner .texto-grande-topo {
+    width: 851px;
+    height: 309px;
+    background-color: #026CB4;
+    color: #fff;
+    padding: 1% 0 2% 22%;
+}
+
+.banner .texto-grande-topo hr {
+    border: #FF6A6A 4px solid;
+    width: 69px;
+    left: 22.2%;
+    position: absolute;
+}
+
+.banner .texto-grande-topo h1 {
+    font-family: 'Barlow-Bold';
+    font-size: 34px;
+    position: relative;
+    top: 30px;
+    left: 1%;
+}
+
+.banner .texto-grande-topo .row {
+    top: 13%;
+    left: 4%;
+    position: relative;
+}
+
+.banner .texto-grande-topo a {
+    text-decoration: none;
+}
+
+.banner .texto-grande-topo a .text {
+    font-family: 'Barlow-Regular';
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.banner .texto-grande-topo i {
+    font-size: 20px;
+    color: #00A7FF;
+    position: relative;
+    top: 26px;
+    margin-top: 5px;
+}
+
+.container.associados-eventos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 546px;
+}
+
+.row.conteudo-texto {
+    position: relative;
+    top: 100px;
+}
+
+.row.conteudo-texto .descricao {
+    padding: 0 30px;
+}
+
+.row.conteudo-texto .descricao hr{
+    border: #FF6A6A solid 2px;
+    width: 69px;
+    position: relative;
+    left: -220px;
+}
+
+.row.conteudo-texto .descricao h2,
+#aniversariantes h2 {
+    font-family: 'Barlow-Bold';
+    font-size: 32px;
+    color: #026CB4;
+}
+
+.row.conteudo-texto .descricao p {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    color: #727272;
+}
+
+.row.conteudo-texto .conheca-associados-eventos {
+    position: relative;
+    top: 50px;
+}
+
+.row.conteudo-texto .descricao .conheca-associados-eventos {
+    color: #57BBFF;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.row.conteudo-texto .descricao .conheca-associados-eventos p {
+    font-family: 'Barlow-Bold';
+    font-size: 14px;
+    color: #026CB4;
+    position: relative;
+    top: -22px;
+    right: -30px;
+    width: fit-content;
+}
+
+.row.conteudo-texto .seta-laranja {
+    font-size: 20px;
+    color: #FF6A6A;
+    left: 20px;
+    position: relative;
+}
+
+/*Seja um associado*/
+.row.conteudo-texto .seja-um-associado {
+    border: #E0E0E0 1px solid;
+    height: 546px;
+    padding: 55px 20px 50px 50px;
+}
+
+.row.conteudo-texto .seja-um-associado a h4 {
+    font-family: 'Barlow-Bold';
+    color: #026CB4;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0;
+}
+
+.row.conteudo-texto .seja-um-associado h4 {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    color: #57BBFF;
+    margin-top: 10px;
+    margin-right: 30%;
+}
+
+.row.conteudo-texto .seja-um-associado ul {
+    padding: 0;
+    list-style: none;
+}
+
+.row.conteudo-texto .seja-um-associado ul li {
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.row.conteudo-texto .seja-um-associado ul li i {
+    color:#FF6A6A;
+    font-size: 5px;
+    top: 15px;
+    position: relative;
+}
+
+.row.conteudo-texto .seja-um-associado ul li p {
+    color: #727272;
+    margin-left: 5%;
+}
+
+#diretoria, 
+#aniversariantes {
+    background-color: #026CB4;
+    height: 901px;
+    padding-top: 120px;
+}
+
+#diretoria h3,
+#aniversariantes h3 {
+    font-family: 'Barlow-Bold';
+    font-size: 22px;
+    color: #fff;
+}
+
+#diretoria svg {
+    position: relative;
+    top: -30px;
+    left: 120px;
+}
+
+#diretoria p {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+#diretoria .botoes-cargos button {
+    width: 136px;
+    height: 36.5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #0865A3;
+    border: none;
+    padding: 0;
+    color: #fff;
+    font-family: 'Barlow-Bold';
+    font-size: 14px;
+}
+
+#diretoria .botoes-cargos button.ativo {
+    background-color: #FF6A6A;
+}
+
+#diretoria .cards-cargos .card,
+#aniversariantes .cards-aniversariantes .card {
+    height: 151.5px;
+    background-color: #026CB4;
+    border: none;
+    left: 15px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+#diretoria .cards-cargos .card .fundo-branco,
+#aniversariantes .cards-aniversariantes .card .fundo-branco {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 97%;
+    height: 100%;
+    padding: 8% 5% 0 10%;
+}
+
+#diretoria .cards-cargos .card .fundo-branco .col-md-4,
+#diretoria .cards-cargos .card .fundo-branco .col-md-8 {
+    padding: 0;
+}
+
+#diretoria .cards-cargos .card .fundo-branco .cargo {
+    font-family: 'Barlow-Bold';
+    font-size: 12px;
+    color: #FF6A6A;
+}
+
+#diretoria .cards-cargos .card .fundo-branco .nome,
+#aniversariantes .cards-aniversariantes .card .fundo-branco .nome {
+    font-family: 'Barlow-Regular';
+    font-size: 18px;
+    color: #026CB4;
+}
+
+#diretoria .cards-cargos .card .fundo-branco .funcao,
+#aniversariantes .cards-aniversariantes .card .fundo-branco .funcao {
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    color: #767676;
+}
+
+#aniversariantes {
+    background-color: #F5F5F5;
+    height: 901px;
+}
+
+#aniversariantes p {
+    font-family: 'Barlow-Regular';
+    font-size: 20px;
+    color: #026CB4;
+}
+
+#aniversariantes svg {
+    position: relative;
+    left: -44px;
+}
+
+#aniversariantes button {
+    background: none;
+    background-color: #F5F5F5;
+    border: none;
+    padding: 0;
+    position: relative;
+}
+
+#aniversariantes .fas {
+    color: #026CB4;
+    font-size: 20px;
+}
+
+#aniversariantes .calendario .row {
+    position: relative;
+    top: -5px;
+}
+
+#aniversariantes h3 {
+    color: #026CB4;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+#aniversariantes .cards-aniversariantes .card {
+    background-color: #F5F5F5;
+}
+
+#aniversariantes .cards-aniversariantes .card .fundo-branco .dia-aniversario {
+    font-family: 'Barlow-Regular';
+    font-size: 45px;
+    color: #FF6A6A;
+}
+
+footer {
+    padding: 0 15% 5% 14%;
+}
+
+footer .row .col-md-2 {
+    padding: 0;
+    max-height: 200px;
+}
+
+footer svg {
+    width: 75%;
+    height: 75%;
+    position: relative;
+    top: 30px;
+    right: -18%;
+}
+
+footer .row .col-md-2 .text {
+    font-family: 'Roboto-Black';
+    font-size: 24px;
+    color: #575757;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+
+footer .col-md-2.redes-sociais {
+    padding: 8% 0 8% 0;
+    text-align: right;
+    bottom: 0;
+}
+
+footer .col-md-2.redes-sociais i {
+    font-size: 21px;
+    margin-left: 5px;
+}
+
+footer .row.endereco-atendimento .col-md-8 {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #575757;
+    text-align: center;
+}
+
+footer .row.endereco-atendimento .col-md-4 {
+    font-family: 'Barlow-Bold';
+    font-size: 14px;
+    color: #026CB4;
+    text-align: right;
+}
+
+footer .row.endereco-atendimento .seta-laranja {
+    font-size: 20px;
+    color: #FF6A6A;
+    top: 2px;
+    right: -10px;
+    position: relative;
+}
